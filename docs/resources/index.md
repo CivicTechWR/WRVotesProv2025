@@ -5,18 +5,25 @@ layout: page
 
 # Election Resources
 
+## Elections Ontario
 
-This page contains helpful resources to help you understand how this
-election works. A good place to start is the [Information for
-Voters](./voter-info) page.
+[Elections Ontario](https://www.elections.on.ca/) is the authoritative site for
+understanding how the election is set up and how you participate. Some helpful
+pages include:
 
-- [Information for Voters](./voter-info): Information about this
-  election, how to vote, and how to get informed.
-- [Registering on the Voters' List](./amend-voters-list): You need to
-  be on the Voters' List in order to vote.
-- [Information About School Board Elections](./school-boards-info):
-  What are trustees? What do they do? Which school board do you vote
-  for?
-- [Municipal Government Overview](./municipal-structure): About roles
-  in the Region's two-tier government.
-- [What is it like to be a Politician?](./being-a-politician)
+- [Find your riding](https://voterinformationservice.elections.on.ca/en/election/search?mode=electoralDistrict)
+- [Check your voter registration](https://voterinformationservice.elections.on.ca/en/election/search?mode=electoralDistrict)
+- [Ways to vote](https://www.elections.ca/content2.aspx?section=vote&document=index&lang=e)
+- [ID requirements](https://www.elections.on.ca/en/voting-in-ontario/id-to-vote-in-provincial-elections.html)
+- [Accessible voting tools and services](https://www.elections.on.ca/en/voting-in-ontario/accessible-voting.html)
+- [Frequently Asked Questions](https://www.elections.on.ca/en/voting-in-ontario/frequently-asked-questions.html)
+
+## Other Resources
+
+Several groups have produced general guides about elections, and about
+how to get involved:
+
+- [Elections and Democracy](https://electionsanddemocracy.ca/)
+- [Inspire Democracy](http://inspirerlademocratie-inspiredemocracy.ca/index-eng.asp)
+- [The Power is Yours Election Handbook](https://www.engagedemocracy.ca/introduction)
+

@@ -37,7 +37,7 @@ var baseLayer = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.
     { attribution: attrib });     //base layer
 
 
-$.getJSON("./assets/data/WardBoundaries.geojson", function(data) {
+$.getJSON("./assets/data/RidingBoundaries.geojson", function(data) {
     var geojson = L.geoJson(data, {
       onEachFeature: onEachFeature
     });

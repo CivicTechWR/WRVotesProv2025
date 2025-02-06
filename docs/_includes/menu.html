@@ -5,12 +5,56 @@ From: https://christianspecht.de/2014/06/18/building-a-pseudo-dynamic-tree-menu-
 <div id="main-menu">
   <div class="inner">
     <ul id="main-menu-ul" class="hidden">
-      {%- for item in site.data.internal.menu-layout %}
-        <li><a href="{{ site.baseurl }}{{ item.url }}"
-            {%- if item.url == navurl %} class="current"{% endif -%}>
-            {{- item.text -}}
-        </a></li>
-      {% endfor -%}
+      <li>
+        {% assign url = '/' %}
+        <a href="{{ site.base_url }}{{ url }}" {%- if navurl == url %} class="current"{% endif -%} >
+          Home
+        </a>
+      </li>
+
+      {% if site.election_over %}
+        <li>
+          {% assign url = '/winners' %}
+          <a href="{{ site.base_url }}{{ url }}" {%- if navurl == url %} class="current"{% endif -%} >
+            {{ site.election_date | date: "%Y" }} Winners
+          </a>
+        </li>
+      {% endif %}
+
+      <li>
+        {% if site.election_type == 'Municipal' %}
+          {% assign url = '/wards/' %}
+          <a href="{{ site.base_url }}{{ url }}" {%- if navurl == url %} class="current"{% endif -%}>
+            Wards
+          </a>
+        {% else %}
+          {% assign url = '/ridings/' %}
+          <a href="{{ site.baes_url }}{{ url }}" {%- if navurl == url %} class="current"{% endif -%}>
+            Ridings
+          </a>
+        {% endif %}
+      </li>
+
+      <li>
+        {% assign url = '/resources/' %}
+        <a href="{{ site.base_url }}{{ url }}" {%- if navurl == url %} class="current"{% endif -%} >
+          Resources
+        </a>
+      </li>
+
+      <li>
+        {% assign url = '/events' %}
+        <a href="{{ site.base_url }}{{ url }}" {%- if navurl == url %} class="current"{% endif -%} >
+          Events
+        </a>
+      </li>
+
+      <li>
+        {% assign url = '/about' %}
+        <a href="{{ site.base_url }}{{ url }}" {%- if navurl == url %} class="current"{% endif -%} >
+          About Us
+        </a>
+      </li>
     </ul>
   </div>
 </div>

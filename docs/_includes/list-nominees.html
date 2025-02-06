@@ -56,7 +56,22 @@
         <span class="name">{{ nominee.Given_Names}} {{ nominee.Last_Name }}</span>
 
         {%- if nominee.Party %}
-          {{ }}<span class="party">({{ nominee.Party }})</span>
+          <span class="party">
+            {% case nominee.Party %}
+            {% when 'GPO' %}
+               (Green Party of Ontario)
+            {% when 'NDP' %}
+               (New Democratic Party of Ontario)
+            {% when 'NewBlue' %}
+               (New Blue Party of Ontario)
+            {% when 'OLP' %}
+               (Liberal Party of Ontario)
+            {% when 'PC' %}
+               (Progressive Conservative Party of Ontario)
+            {% else %}
+              ({{ nominee.Party }})
+            {% endcase %}
+          </span>
         {%- endif -%}
 
         {%- unless nominee.Withdrawn == 'Y' -%}
@@ -142,9 +157,11 @@
     {% endunless %}
 
   </div>
-  {% if include.show-toc-link %}
-    <p class="toc-link">
-    <a href="#toc">&#x2B06; Go back to position list.</a>
-    </p>
+  {% if site.election_type == 'Municipal' %}
+    {% if include.show-toc-link %}
+      <p class="toc-link">
+      <a href="#toc">&#x2B06; Go back to position list.</a>
+      </p>
+    {% endif %}
   {% endif %}
 </div>

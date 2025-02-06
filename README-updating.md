@@ -114,9 +114,9 @@ Google Calendar will not reflect the change. Instead, marked the
 Adding Menu Entries
 -------------------
 
-There are two steps. First, create your new page file in the `ocs`
-directory. Then update `_data/internal/menu-layout.yml` . Spacing
-is important, so follow the examples.
+There are two steps. First, create your new page file in the `docs`
+directory. Then update `_includes/menu.html`. Follow the existing examples for
+how eac h item should be formatted.
 
 
 Changing the Map

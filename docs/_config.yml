@@ -1,9 +1,20 @@
 theme: jekyll-theme-slate
 title: Waterloo Region Votes
-description: Information About the 2022 Municipal Election
+description: Information About the 2025 Provincial Election
 show_downloads: false
 plugins:
   - jekyll-sitemap
+
+# election_type: Federal
+election_type: Provincial
+# election_type: Municipal
+
+election_over: false
+
+# Use ISO notation. This is also used by countdown.js
+election_date: "2025-02-27T09:00"
+
+repository_name: WRvotesProv2025
 
 defaults:
   -
@@ -31,11 +42,6 @@ google_analytics: G-N6Y15Y5FRN
 contact_email: "civictechwr.wrvotes@gmail.com"
 
 # events_newsletter: "https://off-topic.kwlug.org/mailman/listinfo/waterlooregionvotes-events_off-topic.kwlug.org"
-
-election_over: rue
-
-# Use ISO notation. This is used by countdown.js
-election_date: "2022-10-24T09:00"
 
 # This should be a number strictly greater than the number of votes
 # received by any candidate in any race. 
