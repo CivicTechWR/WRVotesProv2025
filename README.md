@@ -49,3 +49,9 @@ To get started locally:
 
 ## How can I help?
 See the [Issues list](https://github.com/CivicTechWR/WRVotesProv2025/issues).
+
+## Similar Projects
+
+There are other projects with similar goals, and which cover Waterloo Region:
+
+* https://votemate.org/about
