@@ -9,8 +9,17 @@ layout: page
   </div><div>
 
 <ul>
-  <li>Site for the <a href="https://civictechwr.github.io/WRVotesFed">2019 Federal Election</a></li>
-  <li>Site for the <a href="https://civictechwr.github.io/WRvotes">2018 Municipal
-  Election</a></li>
+  <li>
+    Site for the
+    <a href="https://civictechwr.github.io/WRVotesMunicipal2022">2022 Municipal Election</a>
+  </li>
+  <li>
+    Site for the
+    <a href="https://civictechwr.github.io/WRVotesFed">2019 Federal Election</a>
+  </li>
+  <li>
+    Site for the
+    <a href="https://civictechwr.github.io/WRvotes">2018 Municipal Election</a>
+  </li>
 </ul>
 
