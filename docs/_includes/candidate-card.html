@@ -3,7 +3,11 @@
 {% assign race-info = site.data.internal.position-tags |
 where:"PositionUniqueName",winner["PositionUniqueName"] | first -%}
 
-{% assign position_title = race-info["ShortLocalDesc"] %}
+{% if race-info["PositionDesc"] %}
+  {% assign position_title = race-info["PositionDesc"] %}
+{% else %}
+  {% assign position_title = race-info["ShortLocalDesc"] %}
+{% endif %}
 
 <div class="grid-item">
     <div class="candidate-card">

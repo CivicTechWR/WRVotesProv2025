@@ -20,17 +20,15 @@
 
     {% unless page.hide-details  %}
       {% if site.election_over %}
-        {% if race-info.ShowResults == 'Y' %}
-          {% include list-results.html nominees=these-nominees 
-             valid-nominees=valid-nominees
-             num-to-elect=num-to-elect
-             race-id=include.race-id %}
-          <h4 class="inline">Candidates</h4>  
-        {% else %}
-          <p>
-          (No results published yet.)
-          </p>
-        {% endif %}
+        {% include list-results.html nominees=these-nominees 
+           valid-nominees=valid-nominees
+           num-to-elect=num-to-elect
+           race-id=include.race-id %}
+        <h4 class="inline">Candidates</h4>  
+      {% else %}
+        <p>
+        (No results published yet.)
+        </p>
       {% endif %}
     {% endunless %}
 
