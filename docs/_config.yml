@@ -9,7 +9,7 @@ plugins:
 election_type: Provincial
 # election_type: Municipal
 
-election_over: false
+election_over: true
 
 # Use ISO notation. This is also used by countdown.js
 election_date: "2025-02-27T09:00"
