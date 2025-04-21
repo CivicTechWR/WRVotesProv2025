@@ -34,7 +34,7 @@ To get started locally:
    ```
    git clone https://github.com/CivicTechWR/WRVotesProv2025.git
    ```
-5. Then go into the WRVotesFed2025 directory, and run install the gems:
+5. Then go into the WRVotesProv2025 directory, and run install the gems:
    ```
    cd WRVotesProv2025
    bundle install
